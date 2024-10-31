@@ -1,0 +1,143 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+}
+
+body {
+   font-family: "Nunito Sans", sans-serif;
+}
+
+.clear-fix {
+   clear: both;
+}
+
+.navbar {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 20px 25px;
+   width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+}
+
+.navbar .logo {
+   float: left;
+}
+
+.navbar .logo img {
+   width: 70px;
+}
+
+.navbar .nav-menu {
+   float: right;
+}
+
+.navbar .nav-menu li {
+   display: inline-block;
+   padding: 0 20px;
+}
+
+.navbar .nav-menu li a {
+   color: #fff;
+}
+
+#home {
+   height: 100vh;
+   background-image: url("../images/header.png");
+   background-size: cover;
+   background-position: center center;
+}
+
+#home .caption {
+   text-align: center;
+   padding-top: 90px;
+   color: #fff;
+}
+
+#home .caption h1 {
+   padding: 10px 0;
+   font-size: 70px;
+}
+
+#home .caption .btn1,
+#home .caption .btn2 {
+   margin-top: 30px;
+   border: 1px solid #fff;
+   padding: 10px 30px;
+   border-radius: 50px;
+   font-size: 20px;
+}
+
+#home .caption .btn1 {
+   background-color: #c1ab84;
+}
+
+#home .caption .btn2 {
+   background-color: #fff;
+}
+
+#about {
+   padding: 50px 80px;
+}
+
+#about .about-img {
+   width: 50%;
+   float: left;
+}
+
+#about .about-img img {
+   width: 100%;
+   border-radius: 5px;
+}
+
+#about .about-info {
+   width: 50%;
+   float: left;
+   padding: 0 30px;
+}
+
+#about .about-info h3 {
+   padding: 10px 0;
+}
+
+#about .about-info p {
+   padding: 20px 0;
+   line-height: 25px;
+}
+
+#about .about-info button {
+   background-color: transparent;
+   padding: 15px 20px;
+   border: 3px solid #000;
+}
+
+#overlay {
+   height: 400px;
+   background-image: url("../images/blog-3.jpg");
+   background-size: 100% 100%;
+   background-attachment: fixed;
+}
+
+#blog {
+   padding: 50px 80px;
+   background-color: #f8f9fa;
+}
+
+#blog h2 {
+   text-align: center;
+}
+
+#blog .item {
+   margin-top: 30px;
+   width: 33.333%;
+   float: left;
+   text-align: center;
+   padding: 0 20px;
+}
+
+#blog .item img {
+   width: 100%;
+}
